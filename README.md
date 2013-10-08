@@ -1,7 +1,7 @@
 # Intro to JavaScript
 JavaScript is the language of the web. It's the third part of the "Web Trifecta," controlling the behavior and interactivity of a website or web application.
 
-## So What's is It?
+## So, What is It?
 JavaScript is a dynamically-typed interpreted language. That means that you don't ever have to declare a datatype (like 'int', or 'String'), and you don't ever have to compile it. Nice, right?
 
 While it can be used [server-side](http://nodejs.org/), JavaScript is primarily a client-side language. That means that it is executed by your browser. 
