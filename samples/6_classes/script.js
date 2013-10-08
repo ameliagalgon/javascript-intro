@@ -28,7 +28,7 @@ var Person = function(name, age) {
 
     // Here's an example of a private function
     function invisible() {
-        console.log("You can only access me from inside here.");
+        console.log("You can only access me from inside here.");s
     }
 }
 
@@ -38,6 +38,11 @@ var maryjane = new Person("Mary Jane", 15);
 peter.speak();
 maryjane.speak();
 
+// Here, you can see that we can't change the private property.
+// Wonder why the assignment doesn't throw an error? Remember,
+// we can just tack on properties to an object, so this is essentially
+// creating a new public property called 'soul' that is separate from
+// the private property.
 peter.showSoul();
 peter.soul = 5;
 peter.showSoul();
